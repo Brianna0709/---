@@ -1,0 +1,172 @@
+import { Card } from '../types';
+
+export const SWORDS_CARDS: Card[] = [
+  {
+    name: '宝剑 A',
+    number: 'ace',
+    suit: '宝剑',
+    symbol: '🗡️',
+    element: '风',
+    upright: ['精神突破', '正义', '清晰思维'],
+    reversed: ['混乱', '残酷', '想法受阻'],
+    uprightMeaning: '锋利的思想之剑斩断了迷雾。现在是决策和突破的最佳时刻，理性会带你走向成功。',
+    reversedMeaning: '你的思维被某种混乱或偏见所纠缠。小心你的决断可能带来的伤害，或者你的创意还未成熟。',
+    colors: ['#64748b', '#f1f5f9']
+  },
+  {
+    name: '宝剑 2',
+    number: '2',
+    suit: '宝剑',
+    symbol: '⚔️',
+    element: '风',
+    upright: ['平衡', '僵局', '拒绝面对'],
+    reversed: ['做出选择', '真相大白', '混乱升级'],
+    uprightMeaning: '你正处于一个难以抉择的僵局，试图通过蒙上双眼来获得虚假的平静。',
+    reversedMeaning: '你终于决定摘下眼罩面。虽然伴随着阵痛，但真相已经显现，你必须做出那个艰难的决定。',
+    colors: ['#94a3b8', '#f8fafc']
+  },
+  {
+    name: '宝剑 3',
+    number: '3',
+    suit: '宝剑',
+    symbol: '💔',
+    element: '风',
+    upright: ['心碎', '背叛', '痛苦'],
+    reversed: ['愈合', '乐观', '释放负能量'],
+    uprightMeaning: '这是一个艰难的时刻，某种背叛或真相让你心如刀绞。但请记住，这是成长的必经之路。',
+    reversedMeaning: '最痛苦的阶段已经过去了。你开始学会从心碎中汲取教训，并逐渐释放那些负面情绪。',
+    colors: ['#ef4444', '#1e293b']
+  },
+  {
+    name: '宝剑 4',
+    number: '4',
+    suit: '宝剑',
+    symbol: '🧘',
+    element: '风',
+    upright: ['休息', '修整', '沉思'],
+    reversed: ['重返战场', '疲劳过渡', '强迫行动'],
+    uprightMeaning: '在经历了激烈的较量后，是时候让自己彻底休息和充电了。在静止中寻找力量。',
+    reversedMeaning: '你休息得太久了，或者在还没准备好时被强迫重新投入到竞争中。感到一种被逼迫的压力。',
+    colors: ['#0f172a', '#475569']
+  },
+  {
+    name: '宝剑 5',
+    number: '5',
+    suit: '宝剑',
+    symbol: '🤺',
+    element: '风',
+    upright: ['惨胜', '冲突', '背弃承诺'],
+    reversed: ['冲突之后的余波', '寻求和解', '重蹈覆辙'],
+    uprightMeaning: '虽然你赢得了争论或竞争，但这种胜利并不光彩，你可能已经失去了更重要的朋友和信任。',
+    reversedMeaning: '你意识到这种无谓的争端并没有赢家。你开始尝试寻求和解，或者至少止损离场。',
+    colors: ['#1e293b', '#64748b']
+  },
+  {
+    name: '宝剑 6',
+    number: '6',
+    suit: '宝剑',
+    symbol: '🛶',
+    element: '风',
+    upright: ['过渡', '平静', '离去'],
+    reversed: ['无法离去', '陷入僵局', '旅途颠簸'],
+    uprightMeaning: '尽管伴随着淡淡的忧伤，但你正朝着更稳定的彼岸前行。时间会冲淡一切波澜。',
+    reversedMeaning: '某种因素拖住了你离开的脚步。你在改变的过程中感到阻力重重，甚至觉得自己在原地打转。',
+    colors: ['#334155', '#cbd5e1']
+  },
+  {
+    name: '宝剑 7',
+    number: '7',
+    suit: '宝剑',
+    symbol: '🕵️',
+    element: '风',
+    upright: ['狡诈', '小聪明', '逃避责任'],
+    reversed: ['行踪败露', '重拾诚实', '自我欺骗'],
+    uprightMeaning: '你正试图通过非正式的方法或小聪明来解决问题。但这仅仅是权宜之计，隐患依然存在。',
+    reversedMeaning: '你的诡计正面临被识破的风险。或者你开始反思，决定停止这种逃避责任的行为，选择坦诚。',
+    colors: ['#475569', '#94a3b8']
+  },
+  {
+    name: '宝剑 8',
+    number: '8',
+    suit: '宝剑',
+    symbol: '🕸️',
+    element: '风',
+    upright: ['束缚', '自我设限', '无力感'],
+    reversed: ['解脱', '重拾信心', '认清现实'],
+    uprightMeaning: '你感到自己被困在了一张无形的网中。但请仔细观察，绳索并未系死，是你自己的恐惧困住了你。',
+    reversedMeaning: '你终于解开了眼罩。那种被围困的幻象正在消退，你意识到只要你想，你随时可以离开。',
+    colors: ['#1e293b', '#475569']
+  },
+  {
+    name: '宝剑 9',
+    number: '9',
+    suit: '宝剑',
+    symbol: '🛌',
+    element: '风',
+    upright: ['焦虑', '噩梦', '心理压力'],
+    reversed: ['痛苦减轻', '寻求帮助', '面对恐惧'],
+    uprightMeaning: '深夜醒来，思虑如刀。你正处于极度的精神焦虑中，很多时候恐惧本身比事实更让你痛苦。',
+    reversedMeaning: '黎明微光已现。你意识到那些困扰你的不过是心魔。你开始尝试寻求外界的建议和帮助。',
+    colors: ['#020617', '#1e293b']
+  },
+  {
+    name: '宝剑 10',
+    number: '10',
+    suit: '宝剑',
+    symbol: '💀',
+    element: '风',
+    upright: ['背水一战', '终结', '谷底'],
+    reversed: ['触底反弹', '死里逃生', '抗拒改变'],
+    uprightMeaning: '事情已经糟糕到了极点。背负着十把重剑，虽然伤痕累累，但这也意味着从此以后只会更好。',
+    reversedMeaning: '你正在从废墟中挣扎着站起来。虽然仍有余悸，但新生的希望已在破败中萌芽。',
+    colors: ['#000000', '#ef4444']
+  },
+  {
+    name: '宝剑侍者',
+    number: 'page',
+    suit: '宝剑',
+    symbol: '🔭',
+    element: '风',
+    upright: ['警觉', '求知欲', '新的观点'],
+    reversed: ['口无遮拦', '急躁', '自以为是'],
+    uprightMeaning: '一名充满理性好奇心的探索者。新的思想和看待世界的角度正让你感到兴奋。',
+    reversedMeaning: '你可能表现得有些尖酸刻薄或是自以为是。盲目地评论你并不真正了解的事情。',
+    colors: ['#475569', '#f1f5f9']
+  },
+  {
+    name: '宝剑骑士',
+    number: 'knight',
+    suit: '宝剑',
+    symbol: '🏇',
+    element: '风',
+    upright: ['由于理性而果断', '急速推进', '坦率'],
+    reversed: ['盲目冲锋', '不择手段', '混乱的思维'],
+    uprightMeaning: '像闪电一样切入问题核心。你有着无与伦比的思维清晰度和行动速度。',
+    reversedMeaning: '这种速度变成了一种破坏力。你在没有想清楚后果的情况下就盲目冲锋，伤及无辜。',
+    colors: ['#1e293b', '#cbd5e1']
+  },
+  {
+    name: '宝剑王后',
+    number: 'queen',
+    suit: '宝剑',
+    symbol: '⚖️',
+    element: '风',
+    upright: ['独立', '睿智', '界限清晰'],
+    reversed: ['刻薄', '过度理智', '情绪压抑'],
+    uprightMeaning: '一个能够清晰分辩是非的人。这种独立和理性是你在复杂局面中生存的法宝。',
+    reversedMeaning: '理性的冷漠变成了对情感的完全屏蔽。你对他人的评价可能过于尖锐且缺乏共情。',
+    colors: ['#334155', '#f8fafc']
+  },
+  {
+    name: '宝剑国王',
+    number: 'king',
+    suit: '宝剑',
+    symbol: '👑',
+    element: '风',
+    upright: ['智力权威', '客观', '战略家'],
+    reversed: ['暴君', '思想扭曲', '滥用智力'],
+    uprightMeaning: '在思想的领域里，你就是君王。用客观、严谨和战略性的布局来解决所有的难题。',
+    reversedMeaning: '由于缺乏情感的平衡，这种智力变成了一种极权或欺诈。你的智慧正被用于邪恶的目的。',
+    colors: ['#0f172a', '#000000']
+  }
+];

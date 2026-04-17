@@ -1,0 +1,172 @@
+import { Card } from '../types';
+
+export const PENTACLES_CARDS: Card[] = [
+  {
+    name: '星币 A',
+    number: 'ace',
+    suit: '星币',
+    symbol: '🪙',
+    element: '土',
+    upright: ['丰足', '物质基础', '新商机'],
+    reversed: ['错失商机', '缺乏计划', '贪婪'],
+    uprightMeaning: '土地已经准备好了。这是一个在现实世界播种的绝佳契机，无论是财富还是健康，都将蓬勃发展。',
+    reversedMeaning: '尽管机会在眼前，你却可能因为缺乏必要的资源或计划而无法抓住它。警惕物质上的贪得无厌。',
+    colors: ['#14532d', '#f0fdf4']
+  },
+  {
+    name: '星币 2',
+    number: '2',
+    suit: '星币',
+    symbol: '🤹',
+    element: '土',
+    upright: ['平衡', '适应力', '优先级'],
+    reversed: ['失衡', '压力过大', '财务混乱'],
+    uprightMeaning: '在多项任务之间优雅地舞动。此时需要灵活多变，合理分配你的资源和精力。',
+    reversedMeaning: '这种多头并进已经让你感到精疲力竭。你的生活和财务正处于一种危险的失衡状态。',
+    colors: ['#16a34a', '#dcfce7']
+  },
+  {
+    name: '星币 3',
+    number: '3',
+    suit: '星币',
+    symbol: '🛠️',
+    element: '土',
+    upright: ['团队合作', '技艺', '初步成功'],
+    reversed: ['缺乏协调', '平庸', '不愿学习'],
+    uprightMeaning: '这是一项集体工程。通过不同领域的协作，你的专业技能将得到认可并结出果实。',
+    reversedMeaning: '每个人都各行其是，导致了效率的低下。或者你正固步自封，不愿提升你的专业水平。',
+    colors: ['#15803d', '#f0fdf4']
+  },
+  {
+    name: '星币 4',
+    number: '4',
+    suit: '星币',
+    symbol: '📦',
+    element: '土',
+    upright: ['守财奴', '安全感', '稳固'],
+    reversed: ['贪婪带来的损失', '学会放手', '慷慨'],
+    uprightMeaning: '你死死守着你的资产，因为你缺乏安全感。这种稳定的结构虽然安全，但也限制了流动与成长。',
+    reversedMeaning: '紧握的拳头终于松开。你开始意识到，与其通过吝啬来守财，不如适度分享来换取更大的空间。',
+    colors: ['#166534', '#bbf7d0']
+  },
+  {
+    name: '星币 5',
+    number: '5',
+    suit: '星币',
+    symbol: '🏚️',
+    element: '土',
+    upright: ['匮乏', '财务危机', '寻求庇护'],
+    reversed: ['转机', '新工作', '走出阴霾'],
+    uprightMeaning: '你正处于一段极为困难的时期，可能感到疾病、贫穷或被世界所排斥。寻求他人的帮助。',
+    reversedMeaning: '隧道尽头的光亮已现。财务压力正在缓解，你开始找到摆脱困境的方法或新的资源。',
+    colors: ['#4b5563', '#1e293b']
+  },
+  {
+    name: '星币 6',
+    number: '6',
+    suit: '星币',
+    symbol: '⚖️',
+    element: '土',
+    upright: ['慷慨', '分享', '慈善'],
+    reversed: ['自私', '债务纠纷', '虚假的慈善'],
+    uprightMeaning: '你处于一种资源充裕的状态。无论是施予还是接受，这种公平的流动都将促进和谐。',
+    reversedMeaning: '施予变成了施舍，或者是有条件的交易。警惕财务上的不平等对待或债务上的麻烦。',
+    colors: ['#22c55e', '#f0f9ff']
+  },
+  {
+    name: '星币 7',
+    number: '7',
+    suit: '星币',
+    symbol: '⏳',
+    element: '土',
+    upright: ['耐心', '长期回报', '评估'],
+    reversed: ['报酬过低', '急于求成', '挫败感'],
+    uprightMeaning: '耕耘告一段落。现在是耐心等待果实成熟的时刻，同时也是评估你目前方法是否奏效的机会。',
+    reversedMeaning: '你期待的回报并没有如期而至，或者由于你操之过急，导致了由于果实尚未成熟就摘取而造成的损失。',
+    colors: ['#15803d', '#fde68a']
+  },
+  {
+    name: '星币 8',
+    number: '8',
+    suit: '星币',
+    symbol: '🛠️',
+    element: '土',
+    upright: ['工匠精神', '学习', '专注'],
+    reversed: ['粗心', '缺乏动力', '完美主义陷阱'],
+    uprightMeaning: '一笔一划，尽善尽美。你正沉浸在技艺的打磨中，这种专注迟早会为你带来极高的专业成就。',
+    reversedMeaning: '你的耐心开始耗尽，工作变得敷衍了事。或者你过度追求细节，而忽略了整体的进度。',
+    colors: ['#065f46', '#ecfdf5']
+  },
+  {
+    name: '星币 9',
+    number: '9',
+    suit: '星币',
+    symbol: '🦜',
+    element: '土',
+    upright: ['独立', '丰饶', '自律'],
+    reversed: ['财务依赖', '虚荣', '缺乏克制'],
+    uprightMeaning: '你已经实现了财务和精神的双重独立。现在的成功完全是你过去自律和努力的回报，享受你的单身精英生活。',
+    reversedMeaning: '成功的表象下隐藏着危机。你可能过于依赖外力的支持，或者通过奢侈的消费来掩盖内心的空虚。',
+    colors: ['#064e3b', '#fef3c7']
+  },
+  {
+    name: '星币 10',
+    number: '10',
+    suit: '星币',
+    symbol: '🏰',
+    element: '土',
+    upright: ['家族遗产', '传承', '持久富足'],
+    reversed: ['家庭遗产纠纷', '家道中落', '失去根基'],
+    uprightMeaning: '一种可以代代相传的稳固基础。这不仅关于物质财富，更关于家庭价值观和精神遗产的延续。',
+    reversedMeaning: '这种原本稳固的结构正受到威胁。可能是因为内部的纠纷，或者是由于过时的观念制约了发展。',
+    colors: ['#065f46', '#ffffff']
+  },
+  {
+    name: '星币侍者',
+    number: 'page',
+    suit: '星币',
+    symbol: '🪙',
+    element: '土',
+    upright: ['好学', '务实', '金钱消息'],
+    reversed: ['缺乏远见', '浪费', '无法落实'],
+    uprightMeaning: '一名勤恳的学生。一份务实的商业计划或一笔关于金钱的正面消息正向你靠近。',
+    reversedMeaning: '你有很多不切实际的幻想。虽然想赚钱，却不愿付出对等的踏实努力，导致机会白白流失。',
+    colors: ['#1e40af', '#dcfce7']
+  },
+  {
+    name: '星币骑士',
+    number: 'knight',
+    suit: '星币',
+    symbol: '🏇',
+    element: '土',
+    upright: ['勤勉', '可靠', '例行公事'],
+    reversed: ['死板', '因循守旧', '停滞不前'],
+    uprightMeaning: '虽然动作缓慢，但每一步都坚实有力。你就是那个值得信赖的人，按部就班终会抵达。',
+    reversedMeaning: '如果你继续这么死板，机会就会溜走。过于迷信所谓的“旧规矩”正成为你最大的绊脚石。',
+    colors: ['#166534', '#fef3c7']
+  },
+  {
+    name: '星币王后',
+    number: 'queen',
+    suit: '星币',
+    symbol: '🐇',
+    element: '土',
+    upright: ['务实', '富足', '照顾他人'],
+    reversed: ['工作狂', '拜金', '忽视家庭'],
+    uprightMeaning: '一种既慷慨又务实的能量。你懂得如何赚钱，更懂得如何享受富有美感的生活，并能照顾好身边的人。',
+    reversedMeaning: '这种对物质的追求变得有些病态。你可能过于沉溺于世俗的眼光，或者因为工作压力而完全忽略了个人生活。',
+    colors: ['#065f46', '#fefce8']
+  },
+  {
+    name: '星币国王',
+    number: 'king',
+    suit: '星币',
+    symbol: '🏰',
+    element: '土',
+    upright: ['大企业家', '财务安全', '可靠'],
+    reversed: ['暴发户', '贪婪', '僵化'],
+    uprightMeaning: '世俗成功的巅峰。你拥有极其稳固的商业眼光和资源掌控力，是所有人信赖的财务支柱。',
+    reversedMeaning: '你可能表现得有些贪恋金钱而变得冷酷无情。过度看重物质成就，让你在精神层面上变得日益贫乏。',
+    colors: ['#14532d', '#000000']
+  }
+];

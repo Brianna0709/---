@@ -1,0 +1,172 @@
+import { Card } from '../types';
+
+export const CUPS_CARDS: Card[] = [
+  {
+    name: '圣杯 A',
+    number: 'ace',
+    suit: '圣杯',
+    symbol: '⛲',
+    element: '水',
+    upright: ['爱情', '感性', '灵性觉醒'],
+    reversed: ['情感疏离', '压抑', '空虚'],
+    uprightMeaning: '情感的泉水正在喷涌。这是建立深厚情感联系或开始一段新感情的完美时刻。',
+    reversedMeaning: '你的情感之杯似乎枯竭。感到孤独、空虚，或者你正刻意地压制内心的真实感受。',
+    colors: ['#3b82f6', '#dbeafe']
+  },
+  {
+    name: '圣杯 2',
+    number: '2',
+    suit: '圣杯',
+    symbol: '🥂',
+    element: '水',
+    upright: ['平等', '吸引力', '合作'],
+    reversed: ['关系破裂', '不平等', '冷战'],
+    uprightMeaning: '一对一的关系达到了完美的和谐。无论是爱情还是商业伙伴，这种互惠互利的能量都非常珍贵。',
+    reversedMeaning: '关系的平衡被打破了。一方的过度索取或沟通的不畅正在导致裂痕的扩大。',
+    colors: ['#60a5fa', '#eff6ff']
+  },
+  {
+    name: '圣杯 3',
+    number: '3',
+    suit: '圣杯',
+    symbol: '🎉',
+    element: '水',
+    upright: ['庆祝', '友谊', '社交'],
+    reversed: ['过度放纵', '闲言碎语', '被孤立'],
+    uprightMeaning: '与亲密的朋友欢聚一堂，庆祝这一共同的喜悦。团队的凝聚力和社交活动将为你带来快乐。',
+    reversedMeaning: '社交活动变成了一种负担，或者你因为过度放纵而感到了空虚。警惕圈子中不必要的闲言碎语。',
+    colors: ['#93c5fd', '#dbeafe']
+  },
+  {
+    name: '圣杯 4',
+    number: '4',
+    suit: '圣杯',
+    symbol: '🛋️',
+    element: '水',
+    upright: ['沉思', '漠不关心', '错失机会'],
+    reversed: ['觉醒', '重新参与', '抓住机会'],
+    uprightMeaning: '你对现状感到厌烦，甚至忽略了上天伸出的橄榄枝。不要因为自闭而错过了眼前的恩典。',
+    reversedMeaning: '你开始从厌倦中醒来，决定重新审视周围的机会。你正在寻找重新投入生活的新理由。',
+    colors: ['#1e40af', '#60a5fa']
+  },
+  {
+    name: '圣杯 5',
+    number: '5',
+    suit: '圣杯',
+    symbol: '🌧️',
+    element: '水',
+    upright: ['悲伤', '后悔', '失去'],
+    reversed: ['释怀', '希望', '回归'],
+    uprightMeaning: '你紧盯着那些被打翻的杯子，深陷在遗憾和悲伤中。但别忘了，你身后还有两个杯子是满的。',
+    reversedMeaning: '悲剧的阶段正在过去。你开始愿意转身去看那些依然属于你的东西。伤感被希望所取代。',
+    colors: ['#1e3a8a', '#94a3b8']
+  },
+  {
+    name: '圣杯 6',
+    number: '6',
+    suit: '圣杯',
+    symbol: '🧸',
+    element: '水',
+    upright: ['回忆', '纯真', '回馈'],
+    reversed: ['沉溺过去', '幼稚', '告别纯真'],
+    uprightMeaning: '就像回到童年的花园。温暖的回忆或昔日的好友正为你带来安慰和力量。',
+    reversedMeaning: '你太沉迷于“过去的美好”，以至于无法面对当下的挑战。甚至表现得有些幼稚和逃避现实。',
+    colors: ['#bfdbfe', '#eff6ff']
+  },
+  {
+    name: '圣杯 7',
+    number: '7',
+    suit: '圣杯',
+    symbol: '💭',
+    element: '水',
+    upright: ['幻象', '选择', '白日梦'],
+    reversed: ['看清事实', '务实的选择', '清醒'],
+    uprightMeaning: '无数的选择摆在你面前，但大多数可能只是五彩斑斓的幻象。小心挑花了眼。',
+    reversedMeaning: '云雾散去。你不再追求虚无缥缈的幻想，而是选择了一条更为踏实和正确的道路。',
+    colors: ['#8b5cf6', '#ede9fe']
+  },
+  {
+    name: '圣杯 8',
+    number: '8',
+    suit: '圣杯',
+    symbol: '🚶',
+    element: '水',
+    upright: ['离去', '寻找更高追求', '放弃'],
+    reversed: ['逃避', '不愿放弃', '恐惧离去'],
+    uprightMeaning: '这是一个充满仪式感的告别。你决定舍弃已有的，去追寻更有意义的价值。',
+    reversedMeaning: '你本该离去，却因为贪恋一点点微薄的安全感而选择了留下。这种犹豫正在消耗你的灵魂。',
+    colors: ['#312e81', '#4b5563']
+  },
+  {
+    name: '圣杯 9',
+    number: '9',
+    suit: '圣杯',
+    symbol: '🍰',
+    element: '水',
+    upright: ['心满意足', '愿望达成', '享乐'],
+    reversed: ['自满', '过度享乐', '愿望落空'],
+    uprightMeaning: '这是关于感官享受和个人满足的时刻。你感到自信、幸福，愿望似乎正变为现实。',
+    reversedMeaning: '你变得有些自负，甚至沉溺于感官欲望中。这种满足感正在变得肤浅并可能引发长远的问题。',
+    colors: ['#60a5fa', '#dbeafe']
+  },
+  {
+    name: '圣杯 10',
+    number: '10',
+    suit: '圣杯',
+    symbol: '🌈',
+    element: '水',
+    upright: ['天伦之乐', '和谐', '长久幸福'],
+    reversed: ['家庭矛盾', '价值观冲突', '破碎的梦'],
+    uprightMeaning: '情感的终极归宿。这种和谐不仅在你的小家庭，更在你的整个内心世界。',
+    reversedMeaning: '完美的假象被戳穿了。家庭成员间的价值观冲突或某种外力正在破坏原本和谐的关系。',
+    colors: ['#3b82f6', '#f8fafc']
+  },
+  {
+    name: '圣杯侍者',
+    number: 'page',
+    suit: '圣杯',
+    symbol: '🐟',
+    element: '水',
+    upright: ['温情', '感性', '新消息'],
+    reversed: ['情绪化', '被欺骗', '感官干扰'],
+    uprightMeaning: '一个充满诗意和想象力的时刻。一个温柔的朋友或是关于艺术的新灵感正向你走来。',
+    reversedMeaning: '你变得过于多愁善感，甚至被自己的情绪巨浪所淹没。警惕那些刻意讨好你却别有用心的人。',
+    colors: ['#93c5fd', '#bae6fd']
+  },
+  {
+    name: '圣杯骑士',
+    number: 'knight',
+    suit: '圣杯',
+    symbol: '🏇',
+    element: '水',
+    upright: ['浪漫', '邀请', '追随直觉'],
+    reversed: ['虚情假意', '不切实际', '情绪多变'],
+    uprightMeaning: '一位白马王子的到来，或者一个充满浪漫色彩的提议。你的直觉正引领你走向美好的事物。',
+    reversedMeaning: '这种浪漫色彩变得有些危险。可能是一个无法兑现的承诺，或者你正陷于一种病态的、不切实际的幻想。',
+    colors: ['#2563eb', '#bfdbfe']
+  },
+  {
+    name: '圣杯王后',
+    number: 'queen',
+    suit: '圣杯',
+    symbol: '🐚',
+    element: '水',
+    upright: ['慈悲', '直觉', '情感支柱'],
+    reversed: ['情绪勒索', '过于敏感', '不安全感'],
+    uprightMeaning: '你拥有强大的共情能力。此时你是周围人的情感港湾，你的智慧来源于你深邃的内心世界。',
+    reversedMeaning: '你的同情心被误用了，或者你正在通过情绪发泄来试图控制他人。你需要先安抚自己不安全的心。',
+    colors: ['#1e40af', '#eff6ff']
+  },
+  {
+    name: '圣杯国王',
+    number: 'king',
+    suit: '圣杯',
+    symbol: '🔱',
+    element: '水',
+    upright: ['沉稳', '情感掌控', '睿智'],
+    reversed: ['冷漠', '被操纵', '滥情'],
+    uprightMeaning: '在狂风巨浪中依然能稳坐王座。你学会了在感性的同时保持理性的克制和睿智。',
+    reversedMeaning: '这种掌控力正逐渐变质为冷漠。你可能在用情感手段操纵他人，或者在大风浪面前彻底失去了平衡。',
+    colors: ['#1e3a8a', '#000000']
+  }
+];

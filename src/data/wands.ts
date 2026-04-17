@@ -1,0 +1,172 @@
+import { Card } from '../types';
+
+export const WANDS_CARDS: Card[] = [
+  {
+    name: '权杖 A',
+    number: 'ace',
+    suit: '权杖',
+    symbol: '🔥',
+    element: '火',
+    upright: ['创造力', '热情', '灵感'],
+    reversed: ['缺乏动力', '阻碍', '三分钟热度'],
+    uprightMeaning: '这是最纯粹的火能量。新的创意、新的工作机会或一种全新的生命力正在你身体里萌发。',
+    reversedMeaning: '你的灵感被现实的各种琐碎所磨灭。空有热忱却难以落地，或者你感到自己正在失去动力。',
+    colors: ['#ef4444', '#fecaca']
+  },
+  {
+    name: '权杖 2',
+    number: '2',
+    suit: '权杖',
+    symbol: '🔭',
+    element: '火',
+    upright: ['规划', '展望', '决定'],
+    reversed: ['恐惧未知', '优柔寡断', '缺乏远见'],
+    uprightMeaning: '你已经迈出了第一步，现在是时候制定一个长远的计划，并决定你的下一个目标。',
+    reversedMeaning: '你对未来感到迷茫，甚至害怕走出舒适区。这种恐惧正让你错过扩大疆土的机会。',
+    colors: ['#f87171', '#fee2e2']
+  },
+  {
+    name: '权杖 3',
+    number: '3',
+    suit: '权杖',
+    symbol: '⛵',
+    element: '火',
+    upright: ['探索', '扩张', '等待收获'],
+    reversed: ['延误', '计划落空', '沮丧'],
+    uprightMeaning: '你的视野正在扩大。不仅在等待船只回港，更在思考如何开辟新的航线，机会在远方。',
+    reversedMeaning: '你所期待的好消息被延误了，或者你的初期扩张尝试并没有带来预期的反馈。',
+    colors: ['#dc2626', '#fef2f2']
+  },
+  {
+    name: '权杖 4',
+    number: '4',
+    suit: '权杖',
+    symbol: '🏰',
+    element: '火',
+    upright: ['庆典', '和谐', '稳定'],
+    reversed: ['家庭冲突', '暂时的不顺', '冷漠'],
+    uprightMeaning: '这是关于归属感和阶段性成就的时刻。与亲友分享喜悦，享受一段稳定的安宁时光。',
+    reversedMeaning: '庆祝被某种内部的不和谐所打断。虽然大局尚未破坏，但氛围已经变得有些微妙或冷漠。',
+    colors: ['#b91c1c', '#fff7ed']
+  },
+  {
+    name: '权杖 5',
+    number: '5',
+    suit: '权杖',
+    symbol: '⚔️',
+    element: '火',
+    upright: ['竞争', '分歧', '磨合'],
+    reversed: ['冲突升级', '逃避竞争', '达成共识'],
+    uprightMeaning: '这是能量的较量。虽然伴随着分歧和混乱，但这也是在磨砺你的能力，从竞争中脱颖而出。',
+    reversedMeaning: '恶性竞争让你感到精疲力竭。或者你选择了退缩，放弃了在这个局面中证明自己的机会。',
+    colors: ['#991b1b', '#fca5a5']
+  },
+  {
+    name: '权杖 6',
+    number: '6',
+    suit: '权杖',
+    symbol: '🏇',
+    element: '火',
+    upright: ['胜利', '荣誉', '进展'],
+    reversed: ['自负', '名誉受损', '虚假成功'],
+    uprightMeaning: '凯旋的时刻。你的努力得到了公众的认可，现在你正处于聚光灯下，享受瞩目。',
+    reversedMeaning: '即使获得了成功，你也没有感到满足，或者你可能因为一时的胜利而变得过于自负，引人反感。',
+    colors: ['#4ade80', '#dc2626']
+  },
+  {
+    name: '权杖 7',
+    number: '7',
+    suit: '权杖',
+    symbol: '🧗',
+    element: '火',
+    upright: ['勇气', '防御', '坚守立场'],
+    reversed: ['退缩', '压力过载', '失去优势'],
+    uprightMeaning: '虽然你正处于竞争的劣势，或者面临围攻，但只要你坚持立场，就能成功防守。',
+    reversedMeaning: '在多重压力下，你开始产生动摇。如果你不能坚定信心，你曾经占据的优势地位就会动摇。',
+    colors: ['#b91c1c', '#f87171']
+  },
+  {
+    name: '权杖 8',
+    number: '8',
+    suit: '权杖',
+    symbol: '🏹',
+    element: '火',
+    upright: ['急速', '行动', '消息'],
+    reversed: ['延误', '混乱', '冲动'],
+    uprightMeaning: '事情正以惊人的速度向前推进。大量的信息和机会扑面而来，现在最需要的是精准的反应。',
+    reversedMeaning: '你试图加速，却导致了更多的混乱。信息的沟通出现了断层，让你在这个高速发展的阶段感到受挫。',
+    colors: ['#fb923c', '#fff7ed']
+  },
+  {
+    name: '权杖 9',
+    number: '9',
+    suit: '权杖',
+    symbol: '🩹',
+    element: '火',
+    upright: ['韧性', '警觉', '最后关头'],
+    reversed: ['精疲力竭', '防线崩溃', '固执'],
+    uprightMeaning: '虽然你已经感到疲惫，并且身上带着伤痕，但终点就在前方，坚持下去。',
+    reversedMeaning: '你绷得太紧了，已经达到了崩溃的边缘。在这个阶段，一味的固执只会让你彻底垮掉。',
+    colors: ['#92400e', '#fef3c7']
+  },
+  {
+    name: '权杖 10',
+    number: '10',
+    suit: '权杖',
+    symbol: '🪨',
+    element: '火',
+    upright: ['重担', '责任', '极限'],
+    reversed: ['减轻负担', '分权', '崩溃'],
+    uprightMeaning: '你承载了太多。虽然快要到达终点，但这种极度的压力正在消耗你的身心平衡。',
+    reversedMeaning: '是时候放手一些责任了。过度承担只会导致效率低下。如果你不主动减轻负担，事情可能会自行崩溃。',
+    colors: ['#451a03', '#d97706']
+  },
+  {
+    name: '权杖侍者',
+    number: 'page',
+    suit: '权杖',
+    symbol: '📜',
+    element: '火',
+    upright: ['冒险精神', '新消息', '探索'],
+    reversed: ['缺乏经验', '坏消息', '犹豫不决'],
+    uprightMeaning: '一个充满激情的年轻人或一段振奋人心的新消息。这是探索未知领域的好时机。',
+    reversedMeaning: '你的热情可能只是心血来潮。因为缺乏必要的经验，你可能会收到一些令你受挫的消息。',
+    colors: ['#d97706', '#fef3c7']
+  },
+  {
+    name: '权杖骑士',
+    number: 'knight',
+    suit: '权杖',
+    symbol: '🏇',
+    element: '火',
+    upright: ['冲劲', '勇往直前', '热情'],
+    reversed: ['鲁莽', '半途而废', '暴躁'],
+    uprightMeaning: '行动力极强的一段时间。你有着不达目的誓不罢休的勇气。',
+    reversedMeaning: '你可能表现得太鲁莽，甚至有些不可理喻。过度的冲动正在破坏你的计划。',
+    colors: ['#b91c1c', '#f59e0b']
+  },
+  {
+    name: '权杖王后',
+    number: 'queen',
+    suit: '权杖',
+    symbol: '🌻',
+    element: '火',
+    upright: ['自信', '魅力', '热情'],
+    reversed: ['妒忌', '急躁', '自负'],
+    uprightMeaning: '一个充满自信且温婉大气的能量。你有能力平衡你的事业与生活，展现出非凡的魅力。',
+    reversedMeaning: '这种过度的自信变成了一种霸道或妒忌，你可能会为了维护自己的形象而变得刻薄。',
+    colors: ['#f59e0b', '#78350f']
+  },
+  {
+    name: '权杖国王',
+    number: 'king',
+    suit: '权杖',
+    symbol: '🦁',
+    element: '火',
+    upright: ['领导力', '愿景', '果断'],
+    reversed: ['专横', '独裁', '缺乏远见'],
+    uprightMeaning: '一个天生的领导者。你拥有宏大的视野，并能用你的意志感染他人去追随。',
+    reversedMeaning: '当你握有权力时，你可能表现得非常专横。如果不听取他人的意见，你的帝国迟早会崩塌。',
+    colors: ['#991b1b', '#000000']
+  }
+];
